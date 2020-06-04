@@ -1,0 +1,48 @@
+body {
+    background-color: #eceef1;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 30px;
+    background-color: white;
+}
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+.form-header h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.4px;
+    height: 26px;
+}
+
+.sub-title {
+    display: block;
+    font-size: 14px;
+    color:#eceef1;
+    font-weight: 300;
+    line-height: 16.8px;
+    height: 68px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}

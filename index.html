@@ -4,27 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div>
-            <img src="imges/logo.png" alt="">
+        <div class="header">
+            <img src="images/logo.png" alt="Intuit Logo">
         </div>
     </header>
    
-    <main> <form action="">
-        <label for="email">Email address</label><br>
-        <input type="email" name="email"><br>
-        <label for="phone">Phone (recommended)</label><br>
-        <input type="tel" name="phone"><br>
-        <label for="password">Password</label><br>
-        <input type="password" name="password"><br>
-        <input type="submit" value="Create Account">
-    </form>
-    <div><p>By clicking Create account, you agree to our<br>
-        Terms and have read and acknowledge our Privacy<br> Statement.</p></div>
-
-
+    <main> 
+        <div class="container">
+            <div class="form-header">
+                <h1>Create an Intuit account</h1>
+                <span class="sub-title">
+                    One account for everything Intuit, including Mint.<br>
+                    Already have an account? <a href=#>Sign In</a>
+                </span>
+            </div>
+            <form>
+                <fieldset class="form-main">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email">
+                    <label for="phone">Phone (recommended)</label>
+                    <input type="tel" name="phone">
+                    <label for="password">Password</label>
+                    <input type="password" name="password">
+                    <input type="submit" value="Create Account">
+                </fieldset>
+            </form>
+            <div class="form-footer">
+                <p>By clicking Create account, you agree to our<br>
+                Terms and have read and acknowledge our Privacy<br> Statement.</p>
+            </div>
+        </div>
     </main>
     
 </body>
