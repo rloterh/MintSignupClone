@@ -46,3 +46,26 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
+.form-main{
+
+}
+
+.form-main label{
+    font-family: sans-serif, Arial, Helvetica;
+    color: #404040;
+    font-size: 15px;
+    padding: 6px 6px;
+    margin-bottom: 10px;
+
+
+}
+
+.form-main input{
+    width: 320px;
+    height: 35px;
+    border: 1px solid #c1c5c8;
+    margin: 0 0 20px;
+    
+    
+}
