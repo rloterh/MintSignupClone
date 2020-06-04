@@ -65,7 +65,11 @@ a {
     width: 320px;
     height: 35px;
     border: 1px solid #c1c5c8;
-    margin: 0 0 20px;
-    
-    
+    margin: 0 0 20px;  
+}
+
+.form-main button{
+    width: 320px;
+    padding: 16px;
+    background: #0077c5;
 }
