@@ -1,8 +1,29 @@
+/* Common styles */
 body {
     background-color: #eceef1;
     font-family: sans-serif;
 }
 
+.text-center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0077C5;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.font-300 {
+    font-weight: 300;
+}
+
+/* Header */
 .header {
     display: flex;
     justify-content: center;
@@ -10,6 +31,7 @@ body {
     padding-bottom: 30px;
 }
 
+/* Main container */
 main {
     display: flex;
     justify-content: center;
@@ -26,14 +48,11 @@ main {
     border: 1px solid #c7c7c7;
 }
 
+/* Form heading */
 .form-header h1 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.1;
-    text-align: center;
-}
-
-.text-center {
     text-align: center;
 }
 
@@ -47,17 +66,7 @@ main {
     padding-bottom: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: #0077C5;
-    cursor: pointer;
-    font-size: 12px;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
+/* Form container */
 .form-main {
     display: flex;
     flex-direction: column;
@@ -77,10 +86,6 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.font-300 {
-    font-weight: 300;
-}
-
 .form-main input {
     width: 100%;
     height: 35px;
@@ -91,6 +96,7 @@ a:hover {
     font-size: 1.2em;
 }
 
+/* Submit btn */
 .submit-btn {
     display: flex;
     justify-content: center;
@@ -102,8 +108,7 @@ a:hover {
     line-height: 1.3em;
     padding: 0 20px;
     background-color: #0077C5;
-    border: 0;
-    border-color: #0077C5;
+    border: 1px solid #0077C5;
     border-radius: 4px;
     color: #ffffff;
     text-transform: capitalize;
@@ -113,8 +118,6 @@ a:hover {
 }
 
 .lock-icon {
-    /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAwCAMAAAClrpMkAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAC6UExURUdwTP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////3HoUvYAAAA9dFJOUwCrcV0ZYP6AMaL2lhCgWMgEKPEtUX9BqCfRDVU2y9X5OsDkAQbuFePEJC7TD7Q4E4QHfDD6DLJCell9Q8cCdpKaAAABLUlEQVQ4y92V13KDMBBFsWmxKe69995Lqv7/t3KFNQnIwsvkyZP7hI6ORmIXDZr2t1x85/p1dfzLQ2vnZNktWWcXr7Um7DeTVpyWtlg4VlqtmcHkRl8aS30TLDFVWokfrbsVo22XH7Kk8AaYmLs/Q3eO8eBeqwLPpiEwnYFU77wUaDlCyiApWcsXGVuNImi0YqyYl7w+FtsSs8H6EnsHe5XYJ5gv1xisILECmFzrCpghMQOsojiLyrP/nXfYZ5AGb2YmGt7yBn/YH+DpjI4udqRiP5HXy3m5Hu116mD1DuUN10FR10PCM8OX/oG3EN6C8JrCaxJeW3htwvOE5xGedXsR0yLrXAOrJekbWKL+jrVxIu/N/Xjm7y/OOybwjvBOZ1I7n4Jr/0LFSP4f/QY7TeMSyZCaMgAAAABJRU5ErkJggg==);
-    */
     background-image: url('images/lock.png');
     display: inline-block;
     height: 1em;
@@ -124,6 +127,7 @@ a:hover {
     margin-right: 6px;
 }
 
+/* Agreement text */
 .agree-text {
     color: #757575;
     font-size: 12px;
@@ -131,6 +135,7 @@ a:hover {
     line-height: 1.5;
 }
 
+/* Form footer container */
 .form-footer {
     margin: 32px -30px -30px -30px;
     background-color: #eceef1;
@@ -146,7 +151,7 @@ a:hover {
     font-size: 10px;
 }
 
-
+/* Footer */
 .footer {
     padding-top: 30px;
     color: #505050;
