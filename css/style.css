@@ -121,9 +121,9 @@ main {
   background-image: url('images/lock.png');
   display: inline-block;
   height: 1em;
-  width: .8em;
+  width: 0.8em;
   background-size: contain;
-  margin-top: 0px;
+  margin-top: 0;
   margin-right: 6px;
 }
 
