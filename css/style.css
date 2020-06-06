@@ -208,7 +208,6 @@ main {
 }
 
 .lock-icon {
-  background-image: url('images/lock.png');
   display: inline-block;
   height: 1em;
   width: 0.8em;
