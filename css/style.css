@@ -1,6 +1,14 @@
 body {
   background-color: #eceef1;
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
 
 .text-center {
@@ -19,6 +27,46 @@ a:hover {
 }
 
 .font-300 {
+  font-weight: 300;
+}
+
+nav {
+  height: 60px;
+  padding: 10px 30px 10px 30px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.signin-text, .signin-btn {
+  margin-left: 10px;
+  text-align: right;
+}
+
+.signin-text {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.signin-btn {
+  padding-left: 5px;
+}
+
+.signin-btn button {
+  background-color: #0077C5;
+  border: 1px solid #4c4c4c;
+  padding: 0 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: normal;
+  text-transform: capitalize;
+  border-radius: 4px;
+  height: 34px;
   font-weight: 300;
 }
 
@@ -93,6 +141,21 @@ main {
   line-height: 1.2;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+.mobile-signin {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    display: none;
+    visibility: hidden;
+  }
+
+  .mobile-signin {
+    display: inline;
+  }
 }
 
 .form-main {
