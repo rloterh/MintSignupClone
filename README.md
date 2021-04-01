@@ -31,7 +31,7 @@ The rubric of this project is to demonstrate the creation of HTML/ CSS forms by 
 ## Getting Started
 
 - [Clone](https://github.com/rloterh/MintSignupClone.git) this project
-- Execute <code>index.html</code> within the project root directory
+- Execute `index.html` within the project root directory
 
 
 ## Built With
@@ -45,20 +45,21 @@ The rubric of this project is to demonstrate the creation of HTML/ CSS forms by 
 This project was tested using [W3C Validator](https://validator.w3.org/) and [Stylelint](https://stylelint.io/)
  
 
-### Testing HTML Syntax via W3C Markup Validation Service
+### Validating HTML Syntax
 
 1. - Go to [The W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload)
 2. - Upload the file named `index.html` in the project directory
 3. - Click on the check button to validate
 4. - All test cases should pass, when no error message is shown 
 
-### Testing CSS with Stylelint
+### Validating CSS Syntax
 
-1. - Ensure node package manager is installed on your computer by going to [npmjs.com](https://www.npmjs.com/get-npm)
-2. - Go to the terminal, and navigate to project directory
-3. - Run the command `npm install`
-4. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
-5. - All test cases passes, when no error message is shown in the terminal
+1. - Run the command `npm -v` to ensure node package manager is installed
+2. - Go to [npmjs.com](https://www.npmjs.com/get-npm) to install node package manager, if not installed
+3. - Go to the terminal, and navigate to project directory
+4. - Run the command `npm install`
+5. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
+6. - All test cases passes, when no error message is shown in the terminal
 
 
 ## Authors
