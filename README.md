@@ -13,8 +13,8 @@ The rubric of this project is to demonstrate the creation of HTML/ CSS forms by 
 | ------------------------- |
 | [Live Demo](#live-demo) |
 | [App Screenshot](#app-screenshot) |
-| [Getting Started](#getting-started)   |
 | [Built With](#built-with)   |
+| [Getting Started](#getting-started)   |
 | [Testing](#testing)   |
 | [Authors](#authors)       |
 | [License](#license)       |
@@ -24,20 +24,21 @@ The rubric of this project is to demonstrate the creation of HTML/ CSS forms by 
 ## Live Demo
 [MintSignUpClone live demo](https://brave-lovelace-cb006a.netlify.app/)
 
+
 ## App Screenshot
 ![img](screenshot.png)
-
-
-## Getting Started
-
-- [Clone](https://github.com/rloterh/MintSignupClone.git) this project
-- Within the project root directory launch `index.html` in a web browser
 
 
 ## Built With
 
 - HTML
 - CSS
+
+
+## Getting Started
+
+1. - [Clone](https://github.com/rloterh/MintSignupClone.git) this project
+2. - Within the project root directory launch `index.html` in a web browser
 
 
 ## Testing
