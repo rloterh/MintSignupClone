@@ -4,7 +4,7 @@
 
 
 ## Description
-This rubric of this project is to demonstrate the creation of HTML /CSS forms by clonning the mint.com signup page. The specification for this project is a part of the Odin Project.
+The rubric of this project is to demonstrate the creation of HTML/ CSS forms by designing a clone of the **mint.com** signup page. The specification for this project is a part of the Odin Project.
 
 
 ## Library Directory 📙
