@@ -1,10 +1,10 @@
-# HTML Forms - Clone of mint.com signup page (Microverse HTML/ CSS Assignment)
+# MintSignupClone - HTML Forms (Microverse HTML/ CSS Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 
 ## Description
-The rubric of this project is to demonstrate the creation of HTML/ CSS forms by designing a clone of the **mint.com** signup page. The specification for this project is a part of the Odin Project.
+The rubric of this project is to demonstrate the creation of HTML/ CSS forms by designing a clone of the [Intuit Mint](https://mint.intuit.com/) signup page. The specification for this project is a part of the Odin Project.
 
 
 ## Library Directory 📙
@@ -22,7 +22,7 @@ The rubric of this project is to demonstrate the creation of HTML/ CSS forms by 
 
 
 ## Live Demo
-[MintSignUpClone live demo](https://raw.githack.com/rloterh/signup-form/signup-form/index.html/).
+[MintSignUpClone live demo](https://brave-lovelace-cb006a.netlify.app/)
 
 ## App Screenshot
 ![img](screenshot.png)
@@ -30,7 +30,7 @@ The rubric of this project is to demonstrate the creation of HTML/ CSS forms by 
 
 ## Getting Started
 
-- [Clone](https://github.com/rloterh/MintSignupClone/.git) this project
+- [Clone](https://github.com/rloterh/MintSignupClone.git) this project
 - Execute <code>index.html</code> within the project root directory
 
 
@@ -91,6 +91,7 @@ Feel free to check the [issues page](https://github.com/rloterh/MintSignupClone/
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+- [Intuit Mint](https://mint.intuit.com/)
 - [The Odin Project](https://www.theodinproject.com/)
 - [Microverse](https://www.microverse.org/)
 
