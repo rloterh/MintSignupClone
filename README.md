@@ -4,7 +4,7 @@
 
 
 ## Description
-The rubric of this project is to demonstrate the creation of HTML/ CSS forms by designing a clone of the [Intuit Mint](https://mint.intuit.com/) signup page. The specification for this project is a part of the Odin Project.
+The rubric of this project is to demonstrate the creation of HTML/ CSS forms by designing a clone of the [Intuit Mint](https://mint.intuit.com/) signup page. The specification for this project is a part of [The Odin Project](https://www.theodinproject.com/).
 
 
 ## Library Directory 📙
@@ -31,7 +31,7 @@ The rubric of this project is to demonstrate the creation of HTML/ CSS forms by 
 ## Getting Started
 
 - [Clone](https://github.com/rloterh/MintSignupClone.git) this project
-- Execute `index.html` within the project root directory
+- Within the project root directory launch `index.html` in a web browser
 
 
 ## Built With
