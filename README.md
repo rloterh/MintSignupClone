@@ -3,6 +3,10 @@
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 
+## Description
+This rubric of this project is to demonstrate the creation of HTML /CSS forms by clonning the mint.com signup page. The specification for this project is a part of the Odin Project.
+
+
 ## Library Directory 📙
 
 | Contents                  |
@@ -15,24 +19,19 @@
 | [Authors](#authors)       |
 | [License](#license)       |
 
-## Description
-This rubric of this project is to demonstrate the creation of HTML /CSS forms by clonning the mint.com signup page. The specification for this project is a part of the Odin Project.
+
 
 ## Live Demo
 [MintSignUpClone live demo](https://raw.githack.com/rloterh/signup-form/signup-form/index.html/).
 
 ## App Screenshot
-| |
-|:-------------------------:|
-| <img width="800" alt="Sign up/ Login page" src="screenshot.png"> <p align="center">Sign up | Log in page <p>|
-  
- <br>
+![img](screenshot.png)
 
 
 ## Getting Started
 
 - [Clone](https://github.com/rloterh/MintSignupClone/.git) this project
-- Execute <code>index.html</code> within the directory**
+- Execute <code>index.html</code> within the directory
 
 
 ## Built With
@@ -40,9 +39,10 @@ This rubric of this project is to demonstrate the creation of HTML /CSS forms by
 - HTML
 - CSS
 
+
 ## Testing
 
-> This project was tested using w3c validator[jest](https://jestjs.io/) and** [Stylint](https://jestjs.io/)
+> This project was tested using [w3c validator](https://validator.w3.org/) and [Stylint](https://stylelint.io/)
 > 
 
 ### Testing HTML Syntax via W3C Markup Validation Service
@@ -59,6 +59,7 @@ This rubric of this project is to demonstrate the creation of HTML /CSS forms by
 3. - Run the command `npm install`
 4. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
 5. - All test cases passes when no error message is shown in the terminal
+
 
 ## Authors
 
@@ -83,6 +84,7 @@ This rubric of this project is to demonstrate the creation of HTML /CSS forms by
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/rloterh/MintSignupClone/issues/new).
+
 
 ## Show your support
 
