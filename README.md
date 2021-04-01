@@ -31,7 +31,7 @@ The rubric of this project is to demonstrate the creation of HTML/ CSS forms by 
 ## Getting Started
 
 - [Clone](https://github.com/rloterh/MintSignupClone/.git) this project
-- Execute <code>index.html</code> within the directory
+- Execute <code>index.html</code> within the project root directory
 
 
 ## Built With
